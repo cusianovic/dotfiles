@@ -111,16 +111,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-path+="/snap/bin"
-
-alias vim=nvim
-alias vi=nvim
-alias clip=clip.exe
-alias ww="cd /mnt/c"
-alias wu="cd /mnt/c/Users/seb"
-source ~/powerlevel10k/powerlevel10k.zsh-theme
-
-
+source ~/.zsh_profile
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
