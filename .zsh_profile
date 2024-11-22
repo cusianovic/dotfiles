@@ -1,5 +1,7 @@
 path+="/snap/bin"
 path+="/home/seb/scripts"
+path+="/home/seb/.local/bin"
+
 
 alias vim=nvim
 alias vi=nvim
@@ -9,7 +11,8 @@ alias wu="cd /mnt/c/Users/seb"
 
 alias wo='wslview $(fdfind -t f . | fzf)'
 
-FZF_SEARCH_PATHS="/mnt/c/projects /mnt/c/School /home/seb /home/seb/projects"
+export FZF_SEARCH_PATHS="/mnt/c/projects /mnt/c/School /home/seb /home/seb/projects"
 bindkey -s '^f' 'tmux_fzf_maker\n'
+bindkey -s '^w' 'explorer.exe .\n'
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 
